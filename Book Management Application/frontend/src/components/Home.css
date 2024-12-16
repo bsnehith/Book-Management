@@ -1,0 +1,31 @@
+.home-container {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .home-header {
+    color: #6200ea;
+  }
+  
+  .home-search input {
+    padding: 0.7rem;
+    width: 60%;
+    margin: 0.5rem;
+  }
+  
+  .home-search button {
+    background-color: #6200ea;
+    color: white;
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .home-search button:hover {
+    background-color: #3700b3;
+  }
+  
+  .paragraph{
+    text-align: center;
+  }

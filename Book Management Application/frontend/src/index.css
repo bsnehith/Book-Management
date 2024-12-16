@@ -1,0 +1,106 @@
+/* Resetting default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #6200ea;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+header ul li {
+  margin: 0 1rem;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+header ul li a:hover {
+  color: #ffab40;
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+button {
+  background-color: #6200ea;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+form input, form select {
+  width: 80%;
+  max-width: 400px;
+  margin: 0.5rem 0;
+  padding: 0.7rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form input:focus, form select:focus {
+  outline: none;
+  border-color: #6200ea;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #6200ea;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #3700b3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

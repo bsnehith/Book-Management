@@ -1,0 +1,22 @@
+.book-details-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .book-details-container h2 {
+    color: #6200ea;
+    margin-bottom: 1rem;
+  }
+  
+  .book-details-container p {
+    margin: 0.5rem 0;
+  }
+  
+  .book-details-container button {
+    margin-top: 1rem;
+  }
+  
